@@ -20,4 +20,11 @@ public abstract class Book {
     //public void printType() { System.out.println("만화책입니다."or"소설책입니다."); }
     public abstract void printType();
 
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
 }
